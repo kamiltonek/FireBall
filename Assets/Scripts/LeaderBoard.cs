@@ -40,7 +40,7 @@ public class LeaderBoard : MonoBehaviour
         PlayGamesPlatform.Instance.LoadScores(
         GPGSIds.leaderboard_highscore,
         LeaderboardStart.TopScores,
-        20,
+        20, // row count
         LeaderboardCollection.Public,
         LeaderboardTimeSpan.AllTime,
         (LeaderboardScoreData data) => {
